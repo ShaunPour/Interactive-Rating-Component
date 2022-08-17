@@ -23,12 +23,12 @@ form button {
     border-radius: initial;
 }
 
-.show {
-    display: initial;
-}
-
 .hide {
     display: none;
+}
+
+.show {
+    display: initial;
 }
 
 .one,.two,.three,.four,.five {
@@ -45,7 +45,7 @@ form button {
     text-transform: uppercase;
 }
 
-.container {
+.rating {
     text-align: left;
     position: relative;
     top: 14rem;
@@ -88,6 +88,7 @@ form {
 
 p {
     width: 75%;
+    padding-top: 3em;
 }
 
 .active {
