@@ -90,6 +90,11 @@ p {
     width: 75%;
 }
 
+.active {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
 @media (min-width: 1440px) {
     .container {
         width: 25%;

@@ -11,6 +11,22 @@ ratingBtn.forEach(btn => {
     btn.addEventListener('click', handleRatingBtnClick);
 });
 
+ratingBtn.forEach(btn => {
+    btn.addEventListener('mouseover', function(e) {
+        if(e.target.classList.contains('rating-btn')) {
+            e.target.classList.add('active');
+            }
+    })
+});
+
+ratingBtn.forEach(btn => {
+    btn.addEventListener('mouseout', function(e) {
+        if(e.target.classList.contains('rating-btn')) {
+            e.target.classList.remove('active');
+        }
+    })
+})
+
 function onSubmit(e) {
     e.preventDefault();
     rating.innerHTML = score;
@@ -20,8 +36,11 @@ function onSubmit(e) {
 
 function handleRatingBtnClick(event) {
     event.preventDefault();
+
     if(event.target.classList.contains('rating-btn')) {
-    score = event.target.innerHTML;
+        event.target.classList.add('active');
+}
+
     console.log(score);
-    }
+    score = event.target.innerHTML;
 }
