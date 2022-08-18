@@ -7,6 +7,7 @@
 body {
     background-color: hsl(216, 12%, 8%);
     color: hsl(0, 0%, 100%);
+    font-style: 'Overpass', sans-serif;
 }
 
 p {
@@ -21,14 +22,6 @@ form button {
 
 #submit {
     border-radius: initial;
-}
-
-.hide {
-    display: none;
-}
-
-.show {
-    display: initial;
 }
 
 .one,.two,.three,.four,.five {
@@ -58,6 +51,45 @@ form button {
     background-color: hsl(213, 19%, 18%);
     padding-bottom: 5rem;
     width: 90%;
+}
+
+.thank-you {
+    position: relative;
+    top: 12em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.thank-you-title {
+    margin-top: 25px;
+    font-size: 30px;
+}
+
+.thank-you-msg {
+    position: relative;
+    left: 2em;
+}
+
+.selected {
+    text-align: center;
+    position: relative;
+    left: 5.5em;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(25, 97%, 53%);
+    border-radius: 30px;
+    padding: 10px;
+    width: 55%;
+    margin-top: 20px;
+}
+
+.thank-you img {
+    position: relative;
+    left: 5em;
+    background-color: initial;
+    border-radius: initial;
 }
 
 img {
@@ -96,6 +128,14 @@ p {
     color: hsl(0, 0%, 100%);
 }
 
+.hide {
+    display: none;
+}
+
+.show {
+    display: initial;
+}
+
 @media (min-width: 1440px) {
     .container {
         width: 25%;
@@ -114,5 +154,35 @@ p {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .thank-you {
+        position: relative;
+        right: 15rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .selected {
+        position: relative;
+        left: 20rem;
+        width: 30%;
+    }
+    .thank-you-title {
+        position: relative;
+        left: 2em;
+    }
+    .thank-you-msg {
+        position: relative;
+        left: 16em;
+        margin-top: 1em;
+        width: 46%;
+    }
+    .hide {
+        display: none;
+    }
+    
+    .show {
+        display: initial;
     }
 }
