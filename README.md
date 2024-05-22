@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repo](https://github.com/DarkPhoenixNinja92/Interactive-Rating-Component)
-- Live Site URL: [Live Site](https://darkphoenixninja92.github.io/Interactive-Rating-Component/)
+- Solution URL: [GitHub Repo](https://github.com/ShaunPour/Interactive-Rating-Component)
+- Live Site URL: [Live Site](https://shaunpour.github.io/Interactive-Rating-Component/)
 
 ### Built with
 
@@ -47,5 +47,5 @@ This project wasn't very hard but I've been "off" vanilla javascript for a while
 ## Author
 
 - Website - [Shaun Pour](https://shaunpourdev.com)
-- Frontend Mentor - [@DarkPhoenixNinja92](https://www.frontendmentor.io/profile/DarkPhoenixNinja92)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@ShaunPour](https://www.frontendmentor.io/profile/ShaunPour)
+- Twitter - [@Dark_Ninja92](https://www.twitter.com/Dark_Ninja92)
